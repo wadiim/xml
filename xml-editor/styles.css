@@ -1,0 +1,35 @@
+fieldset label, input {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+label {
+    width: 150px;
+}
+
+input {
+    width: 427px;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+#creatorList label, #genreList label {
+    width: 141px;
+}
+
+#creatorList input, #genreList input {
+    width: 318px;
+}
+
+fieldset, input {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+fieldset {
+    width: 580px;
+    padding: 10px;
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:awt="http://animeweb.com/xml/types"
+  targetNamespace="http://animeweb.com/xml"
+  xmlns:aw="http://animeweb.com/xml"
+>
+
+  <xs:import namespace="http://animeweb.com/xml/types" schemaLocation="types-schema.xsd"/>
+
+  <xs:element name="animeWeb">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="name" type="awt:name"/>
+        <xs:element name="description" type="awt:description"/>
+        <xs:element name="author" type="awt:author"/>
+        <xs:element name="animeList" type="awt:animeList"/>
+        <xs:element name="directorList" type="awt:directorList"/>
+      </xs:all>
+    </xs:complexType>
+    
+    <xs:key name="animeKey">
+      <xs:selector xpath="aw:animeWeb/animeList/anime"/>
+      <xs:field xpath="@animeId"/>
+    </xs:key>
+  
+    <xs:keyref name="animeIdRef" refer="aw:animeKey">
+      <xs:selector xpath="aw:animeWeb/directorList/director/animegraphy/credit"/>
+      <xs:field xpath="@animeId"/>
+    </xs:keyref>
+    
+    <xs:key name="directorKey">
+      <xs:selector xpath="aw:animeWeb/directorList/director"/>
+      <xs:field xpath="@directorId"/>
+    </xs:key>
+
+    <xs:keyref name="directorIdRef" refer="aw:directorKey">
+      <xs:selector xpath="aw:animeWeb/animeList/anime/creatorList/creator"/>
+      <xs:field xpath="@directorId"/>
+    </xs:keyref>
+  </xs:element>
+  
+</xs:schema>

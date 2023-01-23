@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animeWebReport>
+    <author>Wadim Janikowski</author>
+    <reportTitle>AnimeWeb</reportTitle>
+    <animeList>
+        <anime>
+            <title>Cyberpunk: Edgerunners</title>
+            <rating>8.4</rating>
+            <releaseDate>13-09-2022</releaseDate>
+            <type>Series</type>
+            <genres>Action, Adventure</genres>
+            <directors>Hiroyuki Imaishi, Yoshiyuki Kaneko, Hiromi Wakabayashi</directors>
+        </anime>
+        <anime>
+            <title>Death Note</title>
+            <rating>9.0</rating>
+            <releaseDate>21-10-2007</releaseDate>
+            <type>Series</type>
+            <genres>Crime, Drama</genres>
+            <directors>Hisato Shimoda, Hiroyuki Tsuchiya, Tetsurô Araki, Tomohiko Itô, Mitsuhiro Yoneda, Eiko Nishi, Makoto Bessho, Shinji Nagamura, Oyunamu おゆなむ, Naoyasu Habu, Yukio Okazaki, Kei Tsunematsu, Hironori Aoyagi, Naoto Hashimoto, Takayuki Hirao, Hideki Ito, Mitsuyuki Masuhara, Ryôsuke Nakamura, Tetsuhito Saitô, Tomio Yamauchi</directors>
+        </anime>
+        <anime>
+            <title>Ghost in the Shell</title>
+            <rating>7.9</rating>
+            <releaseDate>29-03-1996</releaseDate>
+            <type>Movie</type>
+            <genres>Action, Crime</genres>
+            <directors>Mamoru Oshii</directors>
+        </anime>
+        <anime>
+            <title>Made in Abyss</title>
+            <rating>8.4</rating>
+            <releaseDate>07-07-2017</releaseDate>
+            <type>Series</type>
+            <genres>Action, Adventure</genres>
+            <directors>Masayuki Kojima, Hitoshi Haga, Shinya Iino, Toshiharu Kudo, Satoshi Mori, Seung Son</directors>
+        </anime>
+        <anime>
+            <title>My Neighbor Totoro</title>
+            <rating>8.1</rating>
+            <releaseDate>13-05-1990</releaseDate>
+            <type>Movie</type>
+            <genres>Comedy, Family</genres>
+            <directors>Hayao Miyazaki</directors>
+        </anime>
+        <anime>
+            <title>Perfect Blue</title>
+            <rating>8.0</rating>
+            <releaseDate>28-02-1998</releaseDate>
+            <type>Movie</type>
+            <genres>Crime, Drama, Mystery, Thriller</genres>
+            <directors>Satoshi Kon</directors>
+        </anime>
+        <anime>
+            <title>Serial Experiments Lain</title>
+            <rating>8.1</rating>
+            <releaseDate>07-07-1998</releaseDate>
+            <type>Series</type>
+            <genres>Drama, Horror, Mystery, Sci-fi</genres>
+            <directors>Ryûtarô Nakamura, Lia Sargent</directors>
+        </anime>
+        <anime>
+            <title>Spirited Away</title>
+            <rating>8.6</rating>
+            <releaseDate>28-03-2003</releaseDate>
+            <type>Movie</type>
+            <genres>Adventure, Family</genres>
+            <directors>Hayao Miyazaki</directors>
+        </anime>
+        <anime>
+            <title>Steins;Gate</title>
+            <rating>8.8</rating>
+            <releaseDate>06-04-2011</releaseDate>
+            <type>Series</type>
+            <genres>Comedy, Drama</genres>
+            <directors>Kazuhiro Ozawa, Kanji Wakabayashi, Tomoki Kobayashi, Kôji Kobayashi, Tomoko Hiramuki, Shigetaka Ikeda, Hisato Shimoda, Hiroshi Hamasaki, Yoshihito Mikamo, Yuzuru Tachikawa, Hiroyuki Tsuchiya, Takuya Satô</directors>
+        </anime>
+        <anime>
+            <title>Tokyo Ghoul</title>
+            <rating>7.8</rating>
+            <releaseDate>03-05-2014</releaseDate>
+            <type>Series</type>
+            <genres>Action, Drama</genres>
+            <directors>Shuhei Morita</directors>
+        </anime>
+    </animeList>
+    <summary>
+        <animeCount>10</animeCount>
+        <directorCount>47</directorCount>
+        <seriesCount>6</seriesCount>
+        <movieCount>4</movieCount>
+        <averageRating>8.309999999999999</averageRating>
+        <reportGenerationDate>19/11/2022</reportGenerationDate>
+    </summary>
+</animeWebReport>

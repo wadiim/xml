@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="styles.css"?>
+
+<aw:animeWeb
+ xmlns:aw="http://animeweb.com/xml"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://animeweb.com/xml schema.xsd">
+  
+  <name>AnimeWeb</name>
+  <description>An online database of information about anime</description>
+  <author>
+    <firstName>Wadim</firstName>
+    <secondNameInitial>X.</secondNameInitial>
+    <lastName>Janikowski</lastName>
+  </author>
+  
+	<animeList>
+		<anime animeId="A0">
+			<title lang="en">Serial Experiments Lain</title>
+			<rating>8.1</rating>
+			<releaseDate>07-07-1998</releaseDate> <!-- DD-MM-YYYY -->
+			<numberOfEpisodes>13</numberOfEpisodes>
+			<description>A story about young girl who, after receiving an email from her dead friend, decides to immerse herself into a virtual world known as the Wired.</description>
+			<img src="https://upload.wikimedia.org/wikipedia/en/3/32/Serial_Experiments_Lain_DVD_vol_1.jpg" />
+			<creatorList>
+				<creator directorId="D0"/>
+				<creator directorId="D1"/>
+			</creatorList>
+			<genreList>
+              <genre genreId="Drama"/>
+              <genre genreId="Horror"/>
+              <genre genreId="Mystery"/>
+              <genre genreId="Sci-fi"/>
+			</genreList>
+		</anime>
+  
+    <anime animeId="A1">
+      <title lang="en">Steins;Gate</title>
+      <rating>8.8</rating>
+      <releaseDate>06-04-2011</releaseDate>
+      <numberOfEpisodes>26</numberOfEpisodes>
+      <description>After discovering time travel, a university student and his colleagues must use their knowledge of it to stop an evil organization and their diabolical plans.</description>
+      <img src="https://upload.wikimedia.org/wikipedia/en/e/e4/Steins%3BGate_cover_art.jpg"/>
+      <creatorList>
+        <creator directorId="D4"/>
+        <creator directorId="D5"/>
+        <creator directorId="D6"/>
+        <creator directorId="D7"/>
+        <creator directorId="D8"/>
+        <creator directorId="D9"/>
+        <creator directorId="D10"/>
+        <creator directorId="D11"/>
+        <creator directorId="D12"/>
+        <creator directorId="D13"/>
+        <creator directorId="D14"/>
+        <creator directorId="D15"/>
+      </creatorList>
+      <genreList>
+        <genre genreId="Comedy"/>
+        <genre genreId="Drama"/>
+      </genreList>
+    </anime>
+  
+    <anime animeId="A2">
+      <title lang="en">Cyberpunk: Edgerunners</title>
+      <rating>8.4</rating>
+      <releaseDate>13-09-2022</releaseDate>
+      <numberOfEpisodes>10</numberOfEpisodes>
+      <description>A Street Kid trying to survive in a technology and body modification-obsessed city of the future.</description>
+      <img src="https://cdn-l-cyberpunk.cdprojektred.com/edgerunners/Cyberpunk-Edgerunners-S1-Poster-en.jpg"/>
+      <creatorList>
+        <creator directorId="D16"/>
+        <creator directorId="D17"/>
+        <creator directorId="D18"/>
+      </creatorList>
+      <genreList>
+        <genre genreId="Action"/>
+        <genre genreId="Adventure"/>
+      </genreList>
+    </anime>
+  
+    <anime animeId="A3">
+      <title lang="en">Spirited Away</title>
+      <title lang="jp">	千と千尋の神隠し</title>
+      <rating>8.6</rating>
+      <releaseDate>28-03-2003</releaseDate>
+      <description>During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.</description>
+      <img src="https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"/>
+      <creatorList>
+        <creator directorId="D19"/>
+      </creatorList>
+      <genreList>
+        <genre genreId="Adventure"/>
+        <genre genreId="Family"/>
+      </genreList>
+    </anime>
+  
+    <anime animeId="A4">
+      <title lang="en">My Neighbor Totoro</title>
+      <rating>8.1</rating>
+      <releaseDate>13-05-1990</releaseDate>
+      <description>When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby.</description>
+      <img src="https://m.media-amazon.com/images/M/MV5BYzJjMTYyMjQtZDI0My00ZjE2LTkyNGYtOTllNGQxNDMyZjE0XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg"/>
+      <creatorList>
+        <creator directorId="D19"/>
+      </creatorList>
+      <genreList>
+        <genre genreId="Comedy"/>
+        <genre genreId="Family"/>
+      </genreList>
+    </anime>
+  
+    <anime animeId="A5">
+      <title lang="en">Tokyo Ghoul</title>
+      <rating>7.8</rating>
+      <releaseDate>03-05-2014</releaseDate>
+      <numberOfEpisodes>12</numberOfEpisodes>
+      <description>A Tokyo college student is attacked by a ghoul, a superpowered human who feeds on human flesh. He survives, but has become part ghoul and becomes a fugitive on the run.</description>
+      <img src="https://m.media-amazon.com/images/M/MV5BN2E2OTgzODktMjBhYy00MjJjLWI0OTgtNGYxOGNhMWMxOWE4XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg"/>
+      <creatorList>
+        <creator directorId="D20"/>
+      </creatorList>
+      <genreList>
+        <genre genreId="Action"/>
+        <genre genreId="Drama"/>
+      </genreList>
+    </anime>
+  
+    <anime animeId="A6">
+      <title lang="en">Ghost in the Shell</title>
+      <rating>7.9</rating>
+      <releaseDate>29-03-1996</releaseDate>
+      <description>A cyborg policewoman and her partner hunt a mysterious and powerful hacker called the Puppet Master.</description>
+      <img src="https://fwcdn.pl/fpo/18/66/31866/7940434.3.jpg"/>
+      <creatorList>
+        <creator directorId="D21"/>
+      </creatorList>
+      <genreList>
+        <genre genreId="Action"/>
+        <genre genreId="Crime"/>
+      </genreList>
+    </anime>
+  
+    <anime animeId="A7">
+      <title lang="en">Made in Abyss</title>
+      <rating>8.4</rating>
+      <releaseDate>07-07-2017</releaseDate>
+      <numberOfEpisodes>25</numberOfEpisodes>
+      <description>A girl and her robot companion search for her mother, who's lost within a vast chasm.</description>
+      <img src="https://m.media-amazon.com/images/M/MV5BYWY3MTliMWYtMmQ1Zi00NDE0LTkzYmUtZDI4MDM1MTgwZTc4XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"/>
+      <creatorList>
+        <creator directorId="D22"/>
+        <creator directorId="D23"/>
+        <creator directorId="D24"/>
+        <creator directorId="D25"/>
+        <creator directorId="D26"/>
+        <creator directorId="D27"/>
+      </creatorList>
+      <genreList>
+        <genre genreId="Action"/>
+        <genre genreId="Adventure"/>
+      </genreList>
+    </anime>
+  
+    <anime animeId="A8">
+      <title lang="en">Perfect Blue</title>
+      <rating>8.0</rating>
+      <releaseDate>28-02-1998</releaseDate>
+      <description>A pop singer gives up her career to become an actress, but she slowly goes insane when she starts being stalked by an obsessed fan and what seems to be a ghost of her past.</description>
+      <img src="https://m.media-amazon.com/images/M/MV5BMmMzOWNhNTYtYmY0My00OGJiLWIzNDUtZWRhNGY0NWFjNzFmXkEyXkFqcGdeQXVyNjUxMDQ0MTg@._V1_FMjpg_UX1000_.jpg"/>
+      <creatorList>
+        <creator directorId="D28"/>
+      </creatorList>
+      <genreList>
+        <genre genreId="Crime"/>
+        <genre genreId="Drama"/>
+        <genre genreId="Mystery"/>
+        <genre genreId="Thriller"/>
+      </genreList>
+    </anime>
+  
+    <anime animeId="A9">
+      <title lang="en">Death Note</title>
+      <rating>9.0</rating>
+      <releaseDate>21-10-2007</releaseDate>
+	  <numberOfEpisodes>37</numberOfEpisodes>
+      <description>An intelligent high school student goes on a secret crusade to eliminate criminals from the world after discovering a notebook capable of killing anyone whose name is written into it.</description>
+      <img src="https://m.media-amazon.com/images/M/MV5BNjRiNmNjMmMtN2U2Yi00ODgxLTk3OTMtMmI1MTI1NjYyZTEzXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"/>
+      <creatorList>
+        <creator directorId="D10"/>
+        <creator directorId="D14"/>
+        <creator directorId="D29"/>
+        <creator directorId="D30"/>
+        <creator directorId="D31"/>
+        <creator directorId="D32"/>
+        <creator directorId="D33"/>
+        <creator directorId="D34"/>
+        <creator directorId="D35"/>
+        <creator directorId="D36"/>
+        <creator directorId="D37"/>
+        <creator directorId="D38"/>
+        <creator directorId="D39"/>
+        <creator directorId="D40"/>
+        <creator directorId="D41"/>
+        <creator directorId="D42"/>
+        <creator directorId="D43"/>
+        <creator directorId="D44"/>
+        <creator directorId="D45"/>
+        <creator directorId="D46"/>
+      </creatorList>
+      <genreList>
+        <genre genreId="Crime"/>
+        <genre genreId="Drama"/>
+      </genreList>
+    </anime>
+	</animeList>
+
+	<directorList>
+		<director directorId="D0">
+			<firstName>Ryûtarô</firstName>
+			<lastName>Nakamura</lastName>
+			<bornDate>15-04-1955</bornDate> <!-- DD-MM-YYYY -->
+			<animegraphy>
+				<credit animeId="A0"/>
+			</animegraphy>
+		</director>
+  
+    <director directorId="D1">
+      <firstName>Lia</firstName>
+      <lastName>Sargent</lastName>
+      <bornDate>20-02-1957</bornDate>
+      <animegraphy>
+        <credit animeId="A0"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D2">
+      <firstName>Jôhei</firstName>
+      <lastName>Matsuura</lastName>
+      <animegraphy>
+        <credit animeId="A0"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D3">
+      <firstName>Akihiko</firstName>
+      <lastName>Nishiyama</lastName>
+      <animegraphy>
+        <credit animeId="A0"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D4">
+      <firstName>Kazuhiro</firstName>
+      <lastName>Ozawa</lastName>
+      <animegraphy>
+        <credit animeId="A1"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D5">
+      <firstName>Kanji</firstName>
+      <lastName>Wakabayashi</lastName>
+      <animegraphy>
+        <credit animeId="A1"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D6">
+      <firstName>Tomoki</firstName>
+      <lastName>Kobayashi</lastName>
+      <animegraphy>
+        <credit animeId="A1"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D7">
+      <firstName>Kôji</firstName>
+      <lastName>Kobayashi</lastName>
+      <animegraphy>
+        <credit animeId="A1"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D8">
+      <firstName>Tomoko</firstName>
+      <lastName>Hiramuki</lastName>
+      <animegraphy>
+        <credit animeId="A1"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D9">
+      <firstName>Shigetaka</firstName>
+      <lastName>Ikeda</lastName>
+      <animegraphy>
+        <credit animeId="A1"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D10">
+      <firstName>Hisato</firstName>
+      <lastName>Shimoda</lastName>
+      <animegraphy>
+        <credit animeId="A1"/>
+        <credit animeId="A9"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D11">
+      <firstName>Hiroshi</firstName>
+      <lastName>Hamasaki</lastName>
+      <animegraphy>
+        <credit animeId="A1"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D12">
+      <firstName>Yoshihito</firstName>
+      <lastName>Mikamo</lastName>
+      <animegraphy>
+        <credit animeId="A1"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D13">
+      <firstName>Yuzuru</firstName>
+      <lastName>Tachikawa</lastName>
+      <animegraphy>
+        <credit animeId="A1"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D14">
+      <firstName>Hiroyuki</firstName>
+      <lastName>Tsuchiya</lastName>
+      <animegraphy>
+        <credit animeId="A1"/>
+        <credit animeId="A9"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D15">
+      <firstName>Takuya</firstName>
+      <lastName>Satô</lastName>
+      <animegraphy>
+        <credit animeId="A1"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D16">
+      <firstName>Hiroyuki</firstName>
+      <lastName>Imaishi</lastName>
+      <bornDate>04-10-1971</bornDate>
+      <animegraphy>
+        <credit animeId="A2"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D17">
+      <firstName>Yoshiyuki</firstName>
+      <lastName>Kaneko</lastName>
+      <animegraphy>
+        <credit animeId="A2"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D18">
+      <firstName>Hiromi</firstName>
+      <lastName>Wakabayashi</lastName>
+      <animegraphy>
+        <credit animeId="A2"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D19">
+      <firstName>Hayao</firstName>
+      <lastName>Miyazaki</lastName>
+      <bornDate>05-01-1941</bornDate>
+      <animegraphy>
+        <credit animeId="A3"/>
+        <credit animeId="A4"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D20">
+      <firstName>Shuhei</firstName>
+      <lastName>Morita</lastName>
+      <bornDate>22-04-1978</bornDate>
+      <animegraphy>
+        <credit animeId="A5"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D21">
+      <firstName>Mamoru</firstName>
+      <lastName>Oshii</lastName>
+      <bornDate>08-08-1951</bornDate>
+      <animegraphy>
+        <credit animeId="A6"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D22">
+      <firstName>Masayuki</firstName>
+      <lastName>Kojima</lastName>
+      <bornDate>16-03-1961</bornDate>
+      <animegraphy>
+        <credit animeId="A7"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D23">
+      <firstName>Hitoshi</firstName>
+      <lastName>Haga</lastName>
+      <animegraphy>
+        <credit animeId="A7"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D24">
+      <firstName>Shinya</firstName>
+      <lastName>Iino</lastName>
+      <animegraphy>
+        <credit animeId="A7"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D25">
+      <firstName>Toshiharu</firstName>
+      <lastName>Kudo</lastName>
+      <animegraphy>
+        <credit animeId="A7"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D26">
+      <firstName>Satoshi</firstName>
+      <lastName>Mori</lastName>
+      <animegraphy>
+        <credit animeId="A7"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D27">
+      <firstName>Seung</firstName>
+      <lastName>Son</lastName>
+      <animegraphy>
+        <credit animeId="A7"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D28">
+      <firstName>Satoshi</firstName>
+      <lastName>Kon</lastName>
+      <bornDate>12-10-1963</bornDate>
+      <animegraphy>
+        <credit animeId="A8"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D29">
+      <firstName>Tetsurô</firstName>
+      <lastName>Araki</lastName>
+      <bornDate>05-11-1976</bornDate>
+      <animegraphy>
+        <credit animeId="A9"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D30">
+      <firstName>Tomohiko</firstName>
+      <lastName>Itô</lastName>
+      <animegraphy>
+        <credit animeId="A9"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D31">
+      <firstName>Mitsuhiro</firstName>
+      <lastName>Yoneda</lastName>
+      <animegraphy>
+        <credit animeId="A9"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D32">
+      <firstName>Eiko</firstName>
+      <lastName>Nishi</lastName>
+      <animegraphy>
+        <credit animeId="A9"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D33">
+      <firstName>Makoto</firstName>
+      <lastName>Bessho</lastName>
+      <animegraphy>
+        <credit animeId="A9"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D34">
+      <firstName>Shinji</firstName>
+      <lastName>Nagamura</lastName>
+      <animegraphy>
+        <credit animeId="A9"/>
+      </animegraphy>
+    </director>
+    
+    <director directorId="D35">
+      <firstName>Oyunamu</firstName>
+      <lastName>おゆなむ</lastName>
+      <animegraphy>
+        <credit animeId="A9"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D36">
+      <firstName>Naoyasu</firstName>
+      <lastName>Habu</lastName>
+      <animegraphy>
+        <credit animeId="A9"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D37">
+      <firstName>Yukio</firstName>
+      <lastName>Okazaki</lastName>
+      <animegraphy>
+        <credit animeId="A9"/>
+      </animegraphy>
+    </director>
+    
+    <director directorId="D38">
+      <firstName>Kei</firstName>
+      <lastName>Tsunematsu</lastName>
+      <animegraphy>
+        <credit animeId="A9"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D39">
+      <firstName>Hironori</firstName>
+      <lastName>Aoyagi</lastName>
+      <animegraphy>
+        <credit animeId="A9"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D40">
+      <firstName>Naoto</firstName>
+      <lastName>Hashimoto</lastName>
+      <animegraphy>
+        <credit animeId="A9"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D41">
+      <firstName>Takayuki</firstName>
+      <lastName>Hirao</lastName>
+      <animegraphy>
+        <credit animeId="A9"/>
+      </animegraphy>
+    </director>
+    
+    <director directorId="D42">
+      <firstName>Hideki</firstName>
+      <lastName>Ito</lastName>
+      <animegraphy>
+        <credit animeId="A9"/>
+      </animegraphy>
+    </director>
+    
+    <director directorId="D43">
+      <firstName>Mitsuyuki</firstName>
+      <lastName>Masuhara</lastName>
+      <animegraphy>
+        <credit animeId="A9"/>
+      </animegraphy>
+    </director>
+    
+    <director directorId="D44">
+      <firstName>Ryôsuke</firstName>
+      <lastName>Nakamura</lastName>
+      <animegraphy>
+        <credit animeId="A9"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D45">
+      <firstName>Tetsuhito</firstName>
+      <lastName>Saitô</lastName>
+      <animegraphy>
+        <credit animeId="A9"/>
+      </animegraphy>
+    </director>
+  
+    <director directorId="D46">
+      <firstName>Tomio</firstName>
+      <lastName>Yamauchi</lastName>
+      <animegraphy>
+        <credit animeId="A9"/>
+      </animegraphy>
+    </director>
+	</directorList>
+</aw:animeWeb>

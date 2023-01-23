@@ -1,0 +1,30 @@
+Author: Wadim Janikowski
+Report title: AnimeWeb
+
+Serial Experiments Lain   8.1   07-07-1998    Series Drama, Horror, Mystery, Sci-fi
+                                              Ryûtarô Nakamura, Lia Sargent
+Steins;Gate               8.8   06-04-2011    Series Comedy, Drama
+                                              Kazuhiro Ozawa, Kanji Wakabayashi, Tomoki Kobayashi, Kôji Kobayashi, Tomoko Hiramuki, Shigetaka Ikeda, Hisato Shimoda, Hiroshi Hamasaki, Yoshihito Mikamo, Yuzuru Tachikawa, Hiroyuki Tsuchiya, Takuya Satô
+Cyberpunk: Edgerunners    8.4   13-09-2022    Series Action, Adventure
+                                              Hiroyuki Imaishi, Yoshiyuki Kaneko, Hiromi Wakabayashi
+Spirited Away             8.6   28-03-2003    Movie  Adventure, Family
+                                              Hayao Miyazaki
+My Neighbor Totoro        8.1   13-05-1990    Movie  Comedy, Family
+                                              Hayao Miyazaki
+Tokyo Ghoul               7.8   03-05-2014    Series Action, Drama
+                                              Shuhei Morita
+Ghost in the Shell        7.9   29-03-1996    Movie  Action, Crime
+                                              Mamoru Oshii
+Made in Abyss             8.4   07-07-2017    Series Action, Adventure
+                                              Masayuki Kojima, Hitoshi Haga, Shinya Iino, Toshiharu Kudo, Satoshi Mori, Seung Son
+Perfect Blue              8.0   28-02-1998    Movie  Crime, Drama, Mystery, Thriller
+                                              Satoshi Kon
+Death Note                9.0   21-10-2007    Series Crime, Drama
+                                              Hisato Shimoda, Hiroyuki Tsuchiya, Tetsurô Araki, Tomohiko Itô, Mitsuhiro Yoneda, Eiko Nishi, Makoto Bessho, Shinji Nagamura, Oyunamu おゆなむ, Naoyasu Habu, Yukio Okazaki, Kei Tsunematsu, Hironori Aoyagi, Naoto Hashimoto, Takayuki Hirao, Hideki Ito, Mitsuyuki Masuhara, Ryôsuke Nakamura, Tetsuhito Saitô, Tomio Yamauchi
+
+Number of anime entries: 10
+Number of directors: 47
+Number of anime series: 6
+Number of anime movies: 4
+Average rating: 8.309999999999999
+Report generation date: 19/11/2022

@@ -1,0 +1,126 @@
+﻿* {
+    display: block;
+}
+
+:root {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+animeWeb > name {
+    font-size: 32px;
+}
+
+animeWeb > name::first-letter {
+    color: #3FC1C9;
+}
+
+animeWeb > author * {
+    display: inline;
+}
+
+animeWeb > name,
+animeWeb > description,
+animeWeb > author {
+    text-align: center;
+}
+
+animeList:before {
+    content: "Anime List:";
+}
+
+directorList:before {
+    content: "Director List:";
+}
+
+animeList::first-line, directorList::first-line {
+    font-weight: bold;
+}
+
+animeList, directorList {
+    margin-top: 16px;
+}
+
+anime, director {
+    display: block;
+    border: 2px solid black;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 4px;
+    opacity: 0.8;
+}
+
+anime:hover, director:hover {
+    opacity: 1;
+}
+
+anime {
+    background-color: #3FC1C9;
+}
+
+anime[animeId = "A0"] > title:after {
+    color: gold;
+    content: " ★";
+}
+
+anime[animeId = "A0"] > title:before {
+    color: gold;
+    content: "★ ";
+} 
+
+anime > title {
+    font-size: 24px;
+    display: inline;
+}
+
+anime > rating:before {
+    content: "Rating: ";
+}
+
+releaseDate:before {
+    content: "Release date: ";
+}
+
+numberOfEpisodes:before {
+    content: "Number of episodes: ";
+}
+
+anime > description:before {
+    content: "Description: ";
+}
+
+genreList:before {
+    content: "Genres: ";
+}
+
+genre:before {
+    content: attr(genreId);
+}
+
+genre:after {
+    content: ", ";
+}
+
+genre:last-child:after {
+    content: "";
+}
+
+genre {
+    display: inline;
+}
+
+director {
+    background-color: #FC5185;
+}
+
+director firstName:before {
+    content: "First name: ";
+}
+
+director lastName:before {
+    content: "Last name: ";
+}
+
+bornDate:before {
+    content: "Born date: ";
+}

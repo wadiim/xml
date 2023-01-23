@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="http://animeweb.com/xml/types"
+  xmlns:awt="http://animeweb.com/xml/types"
+>
+
+  <xs:simpleType name="name">
+    <xs:restriction base="xs:normalizedString">
+      <xs:maxLength value="64"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="initial">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z]\."/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:group name="fullName">
+    <xs:sequence>
+      <xs:element name="firstName" type="awt:name"/>
+      <xs:element name="secondNameInitial" type="awt:initial" minOccurs="0"/>
+      <xs:element name="lastName" type="awt:name"/>
+    </xs:sequence>
+  </xs:group>
+
+  <xs:complexType name="author">
+    <xs:group ref="awt:fullName"/>
+  </xs:complexType>
+
+  <xs:simpleType name="description">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="1024"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="titleContent">
+    <xs:restriction base="xs:normalizedString">
+      <xs:maxLength value="64"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="title">
+    <xs:simpleContent>
+      <xs:extension base="awt:titleContent">
+        <xs:attribute name="lang" type="xs:language"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:simpleType name="rating">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="10"/>
+      <xs:fractionDigits value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="date">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="([0-2][0-9]|3[0-1])-(0[1-9]|1[0-2])-[1-2][0-9]{3}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="numberOfEpisodes">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0" />
+      <xs:maxInclusive value="10000"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="img">
+    <xs:simpleContent>
+      <xs:extension base="xs:anyURI">
+        <xs:attribute name="src"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="creator">
+    <xs:attribute name="directorId"/>
+  </xs:complexType>
+
+  <xs:complexType name="creatorList">
+    <xs:sequence>
+      <xs:element name="creator" type="awt:creator" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="genreId">
+    <xs:restriction base="xs:NMTOKEN">
+      <xs:enumeration value="Drama"/>
+      <xs:enumeration value="Horror"/>
+      <xs:enumeration value="Mystery"/>
+      <xs:enumeration value='Sci-fi'/>
+      <xs:enumeration value="Comedy"/>
+      <xs:enumeration value="Action"/>
+      <xs:enumeration value="Adventure"/>
+      <xs:enumeration value="Family"/>
+      <xs:enumeration value="Crime"/>
+      <xs:enumeration value="Thriller"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="genre">
+    <xs:attribute name="genreId" type="awt:genreId"/>
+  </xs:complexType>
+
+  <xs:complexType name="genreList">
+    <xs:sequence>
+      <xs:element name="genre" type="awt:genre" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="anime">
+    <xs:sequence>
+      <xs:element name="title" type="awt:title" maxOccurs="3"/>
+      <xs:element name="rating" type="awt:rating"/>
+      <xs:element name="releaseDate" type="awt:date"/>
+      <xs:element name="numberOfEpisodes" type="awt:numberOfEpisodes" minOccurs="0"/>
+      <xs:element name="description" type="awt:description"/>
+      <xs:element name="img" type="awt:img"/>
+      <xs:element name="creatorList" type="awt:creatorList"/>
+      <xs:element name="genreList" type="awt:genreList"/>
+    </xs:sequence>
+    <xs:attribute name="animeId" type="xs:token"/>
+  </xs:complexType>
+
+  <xs:complexType name="credit">
+    <xs:attribute name="animeId"/>
+  </xs:complexType>
+
+  <xs:complexType name="animegraphy">
+    <xs:sequence>
+      <xs:element name="credit" type="awt:credit" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="director">
+    <xs:sequence>
+      <xs:group ref="awt:fullName"/>
+      <xs:element name="bornDate" type="awt:date" minOccurs="0"/>
+      <xs:element name="animegraphy" type="awt:animegraphy"/>
+    </xs:sequence>
+    <xs:attribute name="directorId" type="xs:token"/>
+  </xs:complexType>
+
+  <xs:complexType name="animeList">
+    <xs:sequence>
+      <xs:element name="anime" type="awt:anime" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="directorList">
+    <xs:sequence>
+      <xs:element name="director" type="awt:director" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+</xs:schema>

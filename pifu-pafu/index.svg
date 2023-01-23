@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  style="background-color: #29353b;"
+  cursor="crosshair">
+
+  <g id="player" fill="#828a88" display="none">
+    <rect x="196" y="168" width="8" height="32" />
+    <circle cx="200" cy="200" r="16" />
+  </g>
+
+  <g id="play" fill="#417ae1" display="none" stroke="#fefefe">
+    <rect x="50%" y="50%" rx="4" ry="4" width="96" height="64" cursor="pointer"
+          transform="translate(-48,-32)" />
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+          font-family="Arial" font-size="32" fill="#fefefe" cursor="pointer">
+      PLAY
+    </text>
+  </g>
+
+  <g id="gameOver" display="none">
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+          font-family="Arial" font-size="64" fill="#d32c36">Game Over</text>
+  </g>
+
+  <g id="score" display="none">
+    <text x="8" y="20" font-family="Arial" font-size="12" fill="#fefefe">
+      Score: <tspan>0</tspan>
+    </text>
+  </g>
+
+  <g id="back" fill="#fefefe" display="none" cursor="pointer">
+    <circle cx="0%" cy="100%" r="24.5" fill="#29353b"
+            transform="translate(24.5,-24.5)" />
+    <path d="M 24.5 0 C 10.97 0 0 10.97 0 24.5 C 0 38.03 10.97 49 24.5 49
+             C 38.03 49 49 38.03 49 24.5 C 49 10.97 38.03 0 24.5 0 Z
+             M 30.82 33.55 L 26.55 37.82 L 17.5 28.77 L 13.23 24.5
+             L 17.5 20.23 l 9.05 -9.05 l 4.27 4.27 l -9.04 9.05 z" />
+  </g>
+
+  <script xlink:href="script.js" />
+</svg>

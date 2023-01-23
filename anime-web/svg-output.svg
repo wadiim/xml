@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="4100px" style="background-color: #f5f5f5;" preserveAspectRatio="xMidYMid meet"
+     zoomAndPan="magnify" version="1.1" contentScriptType="application/ecmascript" contentStyleType="text/css"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:aw="http://animeweb.com/xml">
+    <defs>
+        <g id="star" fill="gold">
+            <polygon points="8,0.8 3.2,16 15.4,6.3 0.8,6.3 12.9,16"/>
+        </g>
+    </defs>
+    <text x="200" y="100" style="font-size: 40px;"><tspan fill="#3FC1C9">A</tspan>nime<tspan fill="#FC5185">W</tspan>eb
+    </text>
+    <rect x="200" y="200" width="230" height="332" fill="black"/>
+    <image x="200" y="200" width="230" height="332"
+           href="https://upload.wikimedia.org/wikipedia/en/3/32/Serial_Experiments_Lain_DVD_vol_1.jpg"
+           xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet"/>
+    <text x="455" y="228" style="font-size: 28px;">Serial Experiments Lain</text>
+    <text x="455" y="258" style="font-size: 16px;">
+        Rating:
+    </text>
+    <use xlink:href="#star" x="510" y="244" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="526" y="244" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="542" y="244" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="558" y="244" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="574" y="244" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="590" y="244" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="606" y="244" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="622" y="244" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="638" y="244" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="654" y="244" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <line x1="670" y1="252" x2="510" y2="252" stroke-width="16" stroke="#f5f5f5">
+        <animate attributeName="x2" attributeType="XML" begin="1.2s" dur="4s" fill="freeze" from="510" to="639.6"
+                 xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+                 additive="replace" accumulate="none"/>
+    </line>
+    <text x="455" y="278" style="font-size: 16px;">
+        Release date: 07-07-1998
+    </text>
+    <text x="455" y="298" style="font-size: 16px;">
+        Type: Series
+    </text>
+    <text x="455" y="318" style="font-size: 16px;">
+        Genres: Drama, Horror, Mystery, Sci-fi
+    </text>
+    <rect x="200" y="582" width="230" height="332" fill="black"/>
+    <image x="200" y="582" width="230" height="332"
+           href="https://upload.wikimedia.org/wikipedia/en/e/e4/Steins%3BGate_cover_art.jpg" xlink:type="simple"
+           xlink:show="embed" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet"/>
+    <text x="455" y="610" style="font-size: 28px;">Steins;Gate</text>
+    <text x="455" y="640" style="font-size: 16px;">
+        Rating:
+    </text>
+    <use xlink:href="#star" x="510" y="626" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="526" y="626" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="542" y="626" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="558" y="626" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="574" y="626" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="590" y="626" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="606" y="626" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="622" y="626" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="638" y="626" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="654" y="626" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <line x1="670" y1="634" x2="510" y2="634" stroke-width="16" stroke="#f5f5f5">
+        <animate attributeName="x2" attributeType="XML" begin="1.2s" dur="4s" fill="freeze" from="510" to="650.8"
+                 xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+                 additive="replace" accumulate="none"/>
+    </line>
+    <text x="455" y="660" style="font-size: 16px;">
+        Release date: 06-04-2011
+    </text>
+    <text x="455" y="680" style="font-size: 16px;">
+        Type: Series
+    </text>
+    <text x="455" y="700" style="font-size: 16px;">
+        Genres: Comedy, Drama
+    </text>
+    <rect x="200" y="964" width="230" height="332" fill="black"/>
+    <image x="200" y="964" width="230" height="332"
+           href="https://cdn-l-cyberpunk.cdprojektred.com/edgerunners/Cyberpunk-Edgerunners-S1-Poster-en.jpg"
+           xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet"/>
+    <text x="455" y="992" style="font-size: 28px;">Cyberpunk: Edgerunners</text>
+    <text x="455" y="1022" style="font-size: 16px;">
+        Rating:
+    </text>
+    <use xlink:href="#star" x="510" y="1008" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="526" y="1008" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="542" y="1008" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="558" y="1008" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="574" y="1008" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="590" y="1008" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="606" y="1008" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="622" y="1008" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="638" y="1008" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="654" y="1008" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <line x1="670" y1="1016" x2="510" y2="1016" stroke-width="16" stroke="#f5f5f5">
+        <animate attributeName="x2" attributeType="XML" begin="1.2s" dur="4s" fill="freeze" from="510" to="644.4"
+                 xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+                 additive="replace" accumulate="none"/>
+    </line>
+    <text x="455" y="1042" style="font-size: 16px;">
+        Release date: 13-09-2022
+    </text>
+    <text x="455" y="1062" style="font-size: 16px;">
+        Type: Series
+    </text>
+    <text x="455" y="1082" style="font-size: 16px;">
+        Genres: Action, Adventure
+    </text>
+    <rect x="200" y="1346" width="230" height="332" fill="black"/>
+    <image x="200" y="1346" width="230" height="332"
+           href="https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+           xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet"/>
+    <text x="455" y="1374" style="font-size: 28px;">Spirited Away</text>
+    <text x="455" y="1404" style="font-size: 16px;">
+        Rating:
+    </text>
+    <use xlink:href="#star" x="510" y="1390" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="526" y="1390" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="542" y="1390" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="558" y="1390" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="574" y="1390" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="590" y="1390" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="606" y="1390" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="622" y="1390" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="638" y="1390" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="654" y="1390" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <line x1="670" y1="1398" x2="510" y2="1398" stroke-width="16" stroke="#f5f5f5">
+        <animate attributeName="x2" attributeType="XML" begin="1.2s" dur="4s" fill="freeze" from="510" to="647.6"
+                 xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+                 additive="replace" accumulate="none"/>
+    </line>
+    <text x="455" y="1424" style="font-size: 16px;">
+        Release date: 28-03-2003
+    </text>
+    <text x="455" y="1444" style="font-size: 16px;">
+        Type: Movie
+    </text>
+    <text x="455" y="1464" style="font-size: 16px;">
+        Genres: Adventure, Family
+    </text>
+    <rect x="200" y="1728" width="230" height="332" fill="black"/>
+    <image x="200" y="1728" width="230" height="332"
+           href="https://m.media-amazon.com/images/M/MV5BYzJjMTYyMjQtZDI0My00ZjE2LTkyNGYtOTllNGQxNDMyZjE0XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg"
+           xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet"/>
+    <text x="455" y="1756" style="font-size: 28px;">My Neighbor Totoro</text>
+    <text x="455" y="1786" style="font-size: 16px;">
+        Rating:
+    </text>
+    <use xlink:href="#star" x="510" y="1772" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="526" y="1772" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="542" y="1772" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="558" y="1772" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="574" y="1772" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="590" y="1772" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="606" y="1772" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="622" y="1772" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="638" y="1772" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="654" y="1772" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <line x1="670" y1="1780" x2="510" y2="1780" stroke-width="16" stroke="#f5f5f5">
+        <animate attributeName="x2" attributeType="XML" begin="1.2s" dur="4s" fill="freeze" from="510" to="639.6"
+                 xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+                 additive="replace" accumulate="none"/>
+    </line>
+    <text x="455" y="1806" style="font-size: 16px;">
+        Release date: 13-05-1990
+    </text>
+    <text x="455" y="1826" style="font-size: 16px;">
+        Type: Movie
+    </text>
+    <text x="455" y="1846" style="font-size: 16px;">
+        Genres: Comedy, Family
+    </text>
+    <rect x="200" y="2110" width="230" height="332" fill="black"/>
+    <image x="200" y="2110" width="230" height="332"
+           href="https://m.media-amazon.com/images/M/MV5BN2E2OTgzODktMjBhYy00MjJjLWI0OTgtNGYxOGNhMWMxOWE4XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg"
+           xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet"/>
+    <text x="455" y="2138" style="font-size: 28px;">Tokyo Ghoul</text>
+    <text x="455" y="2168" style="font-size: 16px;">
+        Rating:
+    </text>
+    <use xlink:href="#star" x="510" y="2154" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="526" y="2154" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="542" y="2154" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="558" y="2154" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="574" y="2154" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="590" y="2154" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="606" y="2154" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="622" y="2154" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="638" y="2154" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="654" y="2154" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <line x1="670" y1="2162" x2="510" y2="2162" stroke-width="16" stroke="#f5f5f5">
+        <animate attributeName="x2" attributeType="XML" begin="1.2s" dur="4s" fill="freeze" from="510" to="634.8"
+                 xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+                 additive="replace" accumulate="none"/>
+    </line>
+    <text x="455" y="2188" style="font-size: 16px;">
+        Release date: 03-05-2014
+    </text>
+    <text x="455" y="2208" style="font-size: 16px;">
+        Type: Series
+    </text>
+    <text x="455" y="2228" style="font-size: 16px;">
+        Genres: Action, Drama
+    </text>
+    <rect x="200" y="2492" width="230" height="332" fill="black"/>
+    <image x="200" y="2492" width="230" height="332" href="https://fwcdn.pl/fpo/18/66/31866/7940434.3.jpg"
+           xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet"/>
+    <text x="455" y="2520" style="font-size: 28px;">Ghost in the Shell</text>
+    <text x="455" y="2550" style="font-size: 16px;">
+        Rating:
+    </text>
+    <use xlink:href="#star" x="510" y="2536" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="526" y="2536" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="542" y="2536" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="558" y="2536" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="574" y="2536" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="590" y="2536" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="606" y="2536" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="622" y="2536" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="638" y="2536" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="654" y="2536" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <line x1="670" y1="2544" x2="510" y2="2544" stroke-width="16" stroke="#f5f5f5">
+        <animate attributeName="x2" attributeType="XML" begin="1.2s" dur="4s" fill="freeze" from="510" to="636.4"
+                 xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+                 additive="replace" accumulate="none"/>
+    </line>
+    <text x="455" y="2570" style="font-size: 16px;">
+        Release date: 29-03-1996
+    </text>
+    <text x="455" y="2590" style="font-size: 16px;">
+        Type: Movie
+    </text>
+    <text x="455" y="2610" style="font-size: 16px;">
+        Genres: Action, Crime
+    </text>
+    <rect x="200" y="2874" width="230" height="332" fill="black"/>
+    <image x="200" y="2874" width="230" height="332"
+           href="https://m.media-amazon.com/images/M/MV5BYWY3MTliMWYtMmQ1Zi00NDE0LTkzYmUtZDI4MDM1MTgwZTc4XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"
+           xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet"/>
+    <text x="455" y="2902" style="font-size: 28px;">Made in Abyss</text>
+    <text x="455" y="2932" style="font-size: 16px;">
+        Rating:
+    </text>
+    <use xlink:href="#star" x="510" y="2918" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="526" y="2918" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="542" y="2918" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="558" y="2918" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="574" y="2918" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="590" y="2918" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="606" y="2918" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="622" y="2918" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="638" y="2918" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="654" y="2918" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <line x1="670" y1="2926" x2="510" y2="2926" stroke-width="16" stroke="#f5f5f5">
+        <animate attributeName="x2" attributeType="XML" begin="1.2s" dur="4s" fill="freeze" from="510" to="644.4"
+                 xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+                 additive="replace" accumulate="none"/>
+    </line>
+    <text x="455" y="2952" style="font-size: 16px;">
+        Release date: 07-07-2017
+    </text>
+    <text x="455" y="2972" style="font-size: 16px;">
+        Type: Series
+    </text>
+    <text x="455" y="2992" style="font-size: 16px;">
+        Genres: Action, Adventure
+    </text>
+    <rect x="200" y="3256" width="230" height="332" fill="black"/>
+    <image x="200" y="3256" width="230" height="332"
+           href="https://m.media-amazon.com/images/M/MV5BMmMzOWNhNTYtYmY0My00OGJiLWIzNDUtZWRhNGY0NWFjNzFmXkEyXkFqcGdeQXVyNjUxMDQ0MTg@._V1_FMjpg_UX1000_.jpg"
+           xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet"/>
+    <text x="455" y="3284" style="font-size: 28px;">Perfect Blue</text>
+    <text x="455" y="3314" style="font-size: 16px;">
+        Rating:
+    </text>
+    <use xlink:href="#star" x="510" y="3300" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="526" y="3300" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="542" y="3300" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="558" y="3300" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="574" y="3300" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="590" y="3300" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="606" y="3300" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="622" y="3300" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="638" y="3300" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="654" y="3300" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <line x1="670" y1="3308" x2="510" y2="3308" stroke-width="16" stroke="#f5f5f5">
+        <animate attributeName="x2" attributeType="XML" begin="1.2s" dur="4s" fill="freeze" from="510" to="638"
+                 xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+                 additive="replace" accumulate="none"/>
+    </line>
+    <text x="455" y="3334" style="font-size: 16px;">
+        Release date: 28-02-1998
+    </text>
+    <text x="455" y="3354" style="font-size: 16px;">
+        Type: Movie
+    </text>
+    <text x="455" y="3374" style="font-size: 16px;">
+        Genres: Crime, Drama, Mystery, Thriller
+    </text>
+    <rect x="200" y="3638" width="230" height="332" fill="black"/>
+    <image x="200" y="3638" width="230" height="332"
+           href="https://m.media-amazon.com/images/M/MV5BNjRiNmNjMmMtN2U2Yi00ODgxLTk3OTMtMmI1MTI1NjYyZTEzXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"
+           xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet"/>
+    <text x="455" y="3666" style="font-size: 28px;">Death Note</text>
+    <text x="455" y="3696" style="font-size: 16px;">
+        Rating:
+    </text>
+    <use xlink:href="#star" x="510" y="3682" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="526" y="3682" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="542" y="3682" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="558" y="3682" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="574" y="3682" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="590" y="3682" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="606" y="3682" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="622" y="3682" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="638" y="3682" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <use xlink:href="#star" x="654" y="3682" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+    <line x1="670" y1="3690" x2="510" y2="3690" stroke-width="16" stroke="#f5f5f5">
+        <animate attributeName="x2" attributeType="XML" begin="1.2s" dur="4s" fill="freeze" from="510" to="654"
+                 xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+                 additive="replace" accumulate="none"/>
+    </line>
+    <text x="455" y="3716" style="font-size: 16px;">
+        Release date: 21-10-2007
+    </text>
+    <text x="455" y="3736" style="font-size: 16px;">
+        Type: Series
+    </text>
+    <text x="455" y="3756" style="font-size: 16px;">
+        Genres: Crime, Drama
+    </text>
+</svg>
